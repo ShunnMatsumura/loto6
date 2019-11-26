@@ -1,5 +1,9 @@
-# coding:UTF-8
-a = 100
+import numpy as np
+import matplotlib.pyplot as plt
 
-if a == 100:
-    print "あああああああああ"
+x = np.arange(-15,15,0.1)
+
+y = x**3 + 1
+
+plt.plot(x, y)
+plt.show()
